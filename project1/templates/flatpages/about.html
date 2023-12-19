@@ -1,0 +1,9 @@
+{% extends 'flatpages/default.html' %}
+
+{% block content%}
+<p></p>
+{{ flatpage.content}}
+<hr>
+{% endblock content%}
+        {% load static %}
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
